@@ -1,0 +1,80 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+body { 
+    background-color: rgb(218, 117, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+/* contenedor de pagina */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+/* Tarjeta de presentacion */
+.tarjeta {
+    background-color: rgb(216, 65, 181);
+    width: 250px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 15px;
+    
+}
+img {
+    width: 150px;
+    align-self: center;
+    border-radius: 76px;
+}
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(224, 69, 165);
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.541);
+    line-height: 1,5px;
+}
+a{
+    color: rgb(243, 243, 243);
+    text-align: right;
+    text-decoration: none;
+    transition: color o,3s;
+}
+a:hover {
+    color: rgb(231, 231, 231);
+}
+/* Boton "ver mas" */
+.btn-ver-mas {
+    display: inline-block;
+    padding: 15px 35px;
+    background: linear-gradient(135deg, #802f80, #973aa3);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px #802f80(5, 147, 162, 0.3);
+}
+.btn-ver-mas:hover {
+    transform: translateY (-3px);
+    box-shadow: 0 8px 25px #802f80 (5, 147, 162, 0.5);
+    background: linear-gradient(135deg, #444, #444, #555);
+}
+
+
+
+
